@@ -411,7 +411,6 @@ function menus() {
         addAddon('Camera cycling');
         addAddon('Charts');
         addAddon('Chat fix');
-        addAddon('Cockpit volume');
         addAddon('Extra vehicles');
         addAddon('Failures');
         addAddon('Flight path vector');
@@ -1734,7 +1733,6 @@ function addonExecution () {
     }
 
     function volume () {
-        (() => {var volumeScript = document.createElement('script'); volumeScript.src="https://raw.githack.com/geofs-pilot/geofs-cockpit-volume/main/userscript.js";document.body.appendChild(volumeScript);})()
     };
 
     function vehicles () {
